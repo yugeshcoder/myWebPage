@@ -1,0 +1,148 @@
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.companyName{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  background-color: rgb(165, 88, 36);
+  color : rgb(224, 197, 171);
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  align-items: center;
+  background-color: rgb(224, 197, 171);
+}
+
+.nav ul{
+  display: flex;
+  gap: 50px;
+  background-color: rgb(224, 197, 171)
+}
+
+.nav a{
+  background-color: rgb(224, 197, 171)
+}
+
+.category{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  height: 30px;
+  align-items: center;
+  margin-top: 25px;
+}
+.category button{
+  width: 100px;
+  height: 25px;
+  border: 1px solid rgb(194, 99, 35);
+  border-radius: 10px;
+  background-color: rgb(233, 190, 149);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.category .active{
+  background-color: rgb(241, 120, 6);
+}
+
+main{
+  display: grid;
+  justify-content: center;
+}
+
+.plainList{
+  display: flex;
+  border: 1px solid black;
+  box-shadow: 5px 5px 20px black;
+  margin: 25px 0;
+}
+
+.enquiry{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: rgb(224, 197, 171);
+}
+
+img{
+  width: 500px;
+  margin-right: 100px;
+}
+
+.fullScreenDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.fullScreenDiv img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.close:hover{
+  background-color: rgb(250, 4, 4);
+}
+
+.productDescription{
+  padding-right: 25px;
+}
+
+/* contact css */
+
+.contactUs{
+  text-align: center;
+}
+
+/* About us css */
+
+.about{
+  text-align: center;
+}
+
+@media only screen and (max-width : 360px){
+  .companyName{
+    font-size: 1rem;
+  }
+  .plainList{
+    display: block;
+    width: 300px;
+  }
+  img{
+    width: 300px;
+    margin-right: 0;
+  }
+  .productDescription{
+    width: 275px;
+    padding: 0;
+    padding-left: 25px;
+  }
+}

@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: rgb(245, 239, 231);
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: rgb(99, 14, 8);
+  background-color: rgb(224, 197, 171);
+}
