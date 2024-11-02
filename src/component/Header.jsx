@@ -7,7 +7,7 @@ function Header() {
   
   return (
     <div className='head'>
-    <div className='companyName'> KALAPANA WOOD WORKS</div>
+    <div className='companyName'> KALPANA WOOD WORKS</div>
     <Nav/>
     </div>
   )

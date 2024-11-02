@@ -1,7 +1,7 @@
 import React from 'react'
 
 function AboutUs() {
-  const companyName = 'Kalapana Wood Works';
+  const companyName = 'Kalpana Wood Works';
   return (
     <div className='about'>
       <h3>About us</h3>
