@@ -15,21 +15,25 @@
 }
 
 .nav{
-  display: flex;
-  justify-content: space-evenly;
-  height: 50px;
-  align-items: center;
-  background-color: rgb(224, 197, 171);
+  display: block;
+  
+  background-color: rgb(224, 197, 171)
 }
 
 .nav ul{
   display: flex;
+  padding: 15.5px 0;
+  justify-content: space-evenly;
   gap: 10px;
+  background-color: rgb(224, 197, 171)
+}
+.nav li{
   background-color: rgb(224, 197, 171)
 }
 
 .nav a{
-  background-color: rgb(224, 197, 171)
+  background-color: rgb(224, 197, 171);
+  font-size: 1.5rem;
 }
 
 .category{
@@ -99,7 +103,7 @@ img{
 
 .close {
   position: absolute;
-  top: 150px;
+  top: 10px;
   right: 10px;
   background: #fff;
   border: none;
@@ -107,6 +111,7 @@ img{
   cursor: pointer;
   font-size: 16px;
 }
+
 
 .close:hover{
   background-color: rgb(250, 4, 4);
@@ -144,5 +149,11 @@ img{
     width: 275px;
     padding: 0;
     padding-left: 25px;
+  }
+  .nav a{
+    font-size: 1rem;
+  }
+  .close{
+    top: 80px;
   }
 }
