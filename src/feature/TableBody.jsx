@@ -79,7 +79,7 @@ const TableBody = ({name}) => {
   useEffect(() => {},[input]);
   return(
     <>
-    <div ref={appRef} className="wholeTableBody">
+    <div className="wholeTableBody">
       <div className={mode}>
         <div className="tableBody">
           <div className="qModel">
@@ -156,7 +156,7 @@ const TableBody = ({name}) => {
           </div>
         </div>
       </div>
-      <div className={imageMode}>
+      <div ref={appRef} className={imageMode}>
       <div className="tableBody">
           <div className="qModel">
             <div className="q">

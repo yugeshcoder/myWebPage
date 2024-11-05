@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import TableBody from './TableBody.jsx'
+import { toPng } from 'html-to-image'
 import './Header.css'
 
 const Header = () => {
@@ -12,9 +13,11 @@ const Header = () => {
 
   },[date,comp,name])
 
+  
+
 
   return (
-    <div className="calc">
+    <div className="calc" >
       {/* <div className="dateComp">
         <div>
           <label htmlFor="comp">Company : </label>
@@ -51,7 +54,7 @@ const Header = () => {
           </datalist>
           
         </div>
-        <TableBody name={name}/>
+        <TableBody name={name} />
     </div>
   )
 }
