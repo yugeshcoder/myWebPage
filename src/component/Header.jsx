@@ -6,7 +6,7 @@ import { useState } from 'react'
 function Header() {
   
   return (
-    <div className='head'>
+    <div className='head' id='mad'>
     <div className='companyName'> KALPANA WOOD WORKS</div>
     <Nav/>
     </div>
