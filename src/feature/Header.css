@@ -1,0 +1,148 @@
+
+#root {
+  text-align: center;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* .dateComp{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 10px;
+} */
+
+.calc{
+  display: grid;
+  justify-content: center;
+}
+
+.wholeTableBody{
+  display: flex;
+  justify-content: center;
+}
+
+.qModel{
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.qModel select{
+  border: none;
+}
+
+.q{
+  display: flex;
+  align-items: center;
+}
+
+#model{
+  max-width: 90px;
+  text-align: center;
+}
+
+.name{
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+#name{
+  border: 1px solid brown;
+}
+
+#model{
+  border: 1px solid brown;
+  height: 20px;
+}
+
+.name input{
+  border: none;
+  width: 130px;
+  font-weight: 700;
+}
+
+.off{
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.tableBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+table{
+  border-collapse:collapse;
+  width: 200px;
+}
+
+.tableBody input{
+  max-width: 50px;
+  height: 27px;
+  border: none;
+  padding: 0;
+  text-align: center;
+}
+
+th,td{
+  border: 1px solid black;
+  font-weight: 600;
+}
+
+.input table{
+  max-width: 60px;
+  margin-top: 32px;
+}
+
+.input input{
+  width: 80px;
+  border: none;
+  text-align: center;
+}
+
+.imageModeOff{
+  display: none;
+}
+
+.imageModeOn{
+  display: flex;
+  justify-content: center;
+}
+
+.on{
+  display: none;
+}
+
+button{
+  margin: 10px;
+  border-radius: 10px;
+  border-color: brown;
+  padding: 5px;
+}
+
+#footer{
+  margin-top: 10px;
+  padding: 20px 0;
+}
+
+input,select{
+  font-weight: 700;
+}
